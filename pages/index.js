@@ -37,15 +37,15 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a full-stack developer based in Japan!
+        Hello, I&apos;m a full-stack developer!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Debarghya Datta
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Digital Craftsman</p>
         </Box>
         <Box
           flexShrink={0}
@@ -68,19 +68,19 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About Me
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <NextLink href="/works/inkdrop">
+          I am a pre-final year student of IEM, Kolkata, pursuing B.Tech in CSE.
+          The fact that you can convert your thoughts into real world applications/solutions
+          is what amazes me about tech and makes me hustle harder.
+          I am a quick learner and can work with new technologies within a short span of time
+          with ease. 
+
+          {/* <NextLink href="/works/inkdrop">
             <Link>Inkdrop</Link>
           </NextLink>
-          .
+          . */}
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
@@ -93,25 +93,23 @@ const Home = () => (
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Bio
+          Skills
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>Languages:</BioYear>
+          Python, Java, JavaScript, SQL
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>Developer Tools:</BioYear>
+          VS Code, Google Cloud Platform, Github, Postman
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>Technologies/Frameworks:</BioYear>
+          ReactJS, NextJS, Node.js, Express.js, jQuery , Bootstrap ,Tailwind CSS 
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Works as a freelance
+          <BioYear>Databases:</BioYear>
+          MongoDB, MySQL, Firebase
         </BioSection>
       </Section>
 
