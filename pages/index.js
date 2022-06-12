@@ -105,11 +105,11 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>Technologies/Frameworks:</BioYear>
-          React.js, Next.js, Node.js, Express.js, jQuery, Bootstrap, Tailwind CSS 
+          <Paragraph>React.js, Next.js, Node.js, Express.js, jQuery, Bootstrap, Tailwind CSS </Paragraph>
         </BioSection>
         <BioSection>
           <BioYear>Databases:</BioYear>
-          MongoDB, MySQL, Firebase
+          <Paragraph>MongoDB, MySQL, Firebase</Paragraph>
         </BioSection>
       </Section>
 
