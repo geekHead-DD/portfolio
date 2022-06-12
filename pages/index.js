@@ -97,19 +97,19 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>Languages:</BioYear>
-          Python, Java, JavaScript, SQL
+          Python Java JavaScript 
         </BioSection>
         <BioSection>
           <BioYear>Developer Tools:</BioYear>
-          VS Code, Google Cloud Platform, Github, Postman
+          VS Code Google Cloud Platform Postman
         </BioSection>
         <BioSection>
           <BioYear>Technologies/Frameworks:</BioYear>
-          React.js, Next.js, Node.js, Express.js, jQuery , Bootstrap ,Tailwind CSS 
+          React.js Next.js Node.js Express.js jQuery Bootstrap Tailwind CSS 
         </BioSection>
         <BioSection>
           <BioYear>Databases:</BioYear>
-          MongoDB, MySQL, Firebase
+          MongoDB MySQL Firebase
         </BioSection>
       </Section>
 
