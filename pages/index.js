@@ -5,7 +5,7 @@ import {
   Heading,
   Box,
   Image,
-  SimpleGrid,
+  // SimpleGrid,
   Button,
   List,
   ListItem,
@@ -17,15 +17,13 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
+// import { GridItem } from '../components/grid-item'
 import {
-  IoLogoTwitter,
-  IoLogoInstagram,
   IoLogoGithub,
-  IoLogoDiscord
+  IoLogoLinkedin
 } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+// import thumbYouTube from '../public/images/links/youtube.png'
+// import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 
 const Home = () => (
   <Layout>
@@ -37,7 +35,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a full-stack developer!
+        Hello, I&apos;m a developer!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -45,7 +43,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Debarghya Datta
           </Heading>
-          <p>Digital Craftsman</p>
+          <p>Digital Nomad</p>
         </Box>
         <Box
           flexShrink={0}
@@ -119,14 +117,10 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
+          <Link href="https://www.instagram.com/shutterbug.dd/" target="_blank">
             Photography
-          </Link>
-          , Leica, Machine Learning
+          </Link>,
+          Games, Reading
         </Paragraph>
       </Section>
 
@@ -136,17 +130,17 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/geekHead-DD" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoLogoGithub} />}
               >
-                @craftzdog
+                @geekHead-DD
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
+          {/* <ListItem>
             <Link href="https://twitter.com/inkdrop_app" target="_blank">
               <Button
                 variant="ghost"
@@ -156,19 +150,19 @@ const Home = () => (
                 @inkdrop_app
               </Button>
             </Link>
-          </ListItem>
+          </ListItem> */}
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
+            <Link href="https://www.linkedin.com/in/debarghya-datta-383b341a5/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<Icon as={IoLogoTwitter} />}
+                leftIcon={<Icon as={IoLogoLinkedin} />}
               >
-                @craftzdog
+                @DebarghyaDatta
               </Button>
             </Link>
           </ListItem>
-          <ListItem>
+          {/* <ListItem>
             <Link href="https://instagram.com/craftzdog" target="_blank">
               <Button
                 variant="ghost"
@@ -189,10 +183,10 @@ const Home = () => (
                 Discord
               </Button>
             </Link>
-          </ListItem>
+          </ListItem> */}
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        {/* <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="https://www.youtube.com/devaslife"
             title="Dev as Life"
@@ -215,7 +209,7 @@ const Home = () => (
               Popular posts
             </Button>
           </NextLink>
-        </Box>
+        </Box> */}
       </Section>
     </Container>
   </Layout>

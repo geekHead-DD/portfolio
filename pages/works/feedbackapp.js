@@ -10,7 +10,8 @@ import {
   Center
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, WorkImage } from '../../components/work'
+// import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -18,15 +19,13 @@ const Work = () => (
   <Layout title="The four painters">
     <Container>
       <Title>
-        The four painters <Badge>2015</Badge>
+        Feedback App <Badge>2022</Badge>
       </Title>
       <P>
-        A video work generated with deep learning, imitating famous four
-        painters: Van Gogh, Edvard Munch, Kiyoshi Yamashita, and Katsushika
-        Hokusai.
+        A feedback taking app made using ReactJS
       </P>
       <List ml={4} my={4}>
-        <ListItem>
+        {/* <ListItem>
           <Meta>Stack</Meta>
           <span>DeepLearning, neural-style, Caffe, NodeJS</span>
         </ListItem>
@@ -49,7 +48,7 @@ const Work = () => (
             Deep Learningを使って映像作品を作った
             <ExternalLinkIcon mx="2px" />
           </Link>
-        </ListItem>
+        </ListItem> */}
       </List>
 
       <Heading as="h4" fontSize={16} my={6}>
