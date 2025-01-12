@@ -81,7 +81,7 @@ const Home = () => (
           . */}
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works" legacyBehavior>
+          <NextLink href="https://drive.google.com/file/d/1nmV333tLb-d1M1KqjDM1mhkGY8HfaPim/view?usp=sharing" legacyBehavior>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My portfolio
             </Button>
