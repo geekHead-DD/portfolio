@@ -83,7 +83,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <NextLink href="https://drive.google.com/file/d/1nmV333tLb-d1M1KqjDM1mhkGY8HfaPim/view?usp=sharing" legacyBehavior>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+              My Resume
             </Button>
           </NextLink>
         </Box>
@@ -94,20 +94,21 @@ const Home = () => (
           Skills
         </Heading>
         <BioSection>
+          <BioYear>Tools:</BioYear>
+          <Paragraph> Anaplan • Anaplan Connector
+          • MS Excel • Postman • AWS </Paragraph>
+        </BioSection>
+        <BioSection>
           <BioYear>Languages:</BioYear>
-          <Paragraph> Python, Java, JavaScript </Paragraph>
-        </BioSection>
-        <BioSection>
-          <BioYear>Developer Tools:</BioYear>
-          <Paragraph>VS Code, Google Cloud Platform, Postman</Paragraph>
-        </BioSection>
-        <BioSection>
-          <BioYear>Technologies/Frameworks:</BioYear>
-          <Paragraph>React.js, Next.js, Node.js, Express.js, jQuery, Bootstrap, Tailwind CSS </Paragraph>
+          <Paragraph>Python • Java</Paragraph>
         </BioSection>
         <BioSection>
           <BioYear>Databases:</BioYear>
-          <Paragraph>MongoDB, MySQL, Firebase</Paragraph>
+          <Paragraph>MySQL • MongoDB </Paragraph>
+        </BioSection>
+        <BioSection>
+          <BioYear>IDE:</BioYear>
+          <Paragraph>VS Code • PyCharm</Paragraph>
         </BioSection>
       </Section>
 
@@ -117,7 +118,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Art, Music,{' '}
-          <Link href="https://www.instagram.com/shutterbug.dd/" target="_blank">
+          <Link href="https://www.instagram.com/freezeframe.dd/" target="_blank">
             Photography
           </Link>,
           Games, Reading
