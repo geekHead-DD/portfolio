@@ -81,7 +81,7 @@ const Home = () => (
           . */}
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works">
+          <NextLink href="/works" legacyBehavior>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My portfolio
             </Button>
