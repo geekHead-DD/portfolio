@@ -69,11 +69,18 @@ const Home = () => (
           About Me
         </Heading>
         <Paragraph>
-          I am a pre-final year student of IEM, Kolkata, pursuing B.Tech in CSE.
-          The fact that you can convert your thoughts into real world applications/solutions
-          is what amazes me about tech and makes me hustle harder.
-          I am a quick learner and can work with new technologies within a short span of time
-          with ease. 
+         
+        I am a Senior Analyst at Deloitte, with 1 year and 6 months of experience on the team.
+        During this time, I have earned certifications in Anaplan Level 1, Level 2, Level 3,
+        and The Anaplan Way, along with several other qualifications that reflect my dedication
+        to professional growth. I hold a B.Tech in Computer Science and Engineering from IEM Kolkata.
+        <br></br> <br></br>
+        Driven by a passion for innovation, I excel at leveraging technology to address complex
+        business challenges and deliver strategic solutions. As a quick learner with a strong
+        commitment to continuous improvement, I actively explore emerging tools and technologies
+        to expand my expertise. My goal is to create meaningful impact by driving innovation and
+        adding value to every project I undertake. 
+
 
           {/* <NextLink href="/works/inkdrop">
             <Link>Inkdrop</Link>
